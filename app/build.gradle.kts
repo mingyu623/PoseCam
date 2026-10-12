@@ -13,13 +13,13 @@ val keystoreProperties = Properties().apply {
 
 android {
     namespace = "com.posecam"
-    compileSdk = 37
+    compileSdk = 36
 
     defaultConfig {
         applicationId = "com.posecam"
         // ARCore's own minimum; any phone that can run ARCore can run PoseCam.
         minSdk = 24
-        targetSdk = 37
+        targetSdk = 36
         versionCode = 4
         versionName = "0.3.0"
     }
